@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MatematicaDoDenin</title>
+<style>
+body {margin:0; font-family:Arial,Helvetica,sans-serif; background:#0f172a; color:#e5e7eb;}
+header {background:linear-gradient(90deg,#2563eb,#7c3aed); padding:40px 20px; text-align:center;}
+header h1 {margin:0; font-size:2.6rem;}
+header p {font-size:1.2rem;}
+section {padding:30px; max-width:900px; margin:auto;}
+a {color:#60a5fa; text-decoration:none; font-size:1.3rem; display:block; margin:15px 0;}
+a:hover {color:#38bdf8;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>📘 MatematicaDoDenin</h1>
+<p>Estude matemática do zero absoluto até nível IME/ITA com explicações detalhadas, exercícios e vídeos.</p>
+</header>
+
+<section>
+<a href="fundamentos.html">🔹 Fundamentos (Zero Absoluto)</a>
+<a href="algebra.html">🔹 Álgebra Completa</a>
+<a href="geometria.html">🔹 Geometria Plana e Espacial</a>
+<a href="trigonometria.html">🔹 Trigonometria</a>
+<a href="combinatoria.html">🔹 Combinatória e Probabilidade</a>
+<a href="complexos.html">🔹 Números Complexos</a>
+<a href="precalculo.html">🔹 Pré-Cálculo</a>
+<a href="calculo.html">🔹 Cálculo Básico e Avançado</a>
+</section>
+
+</body>
+</html>
