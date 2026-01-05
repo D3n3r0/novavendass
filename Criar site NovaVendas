@@ -1,0 +1,105 @@
+
+      color: white;
+  <nav>
+    <a href="#computadores">Computadores</a>
+    <a href="#celulares">Celulares</a>
+    <a href="#games">Videogames</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+
+  <section id="computadores">
+    <h2>🖥️ Produtos para Computadores</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Componentes</h3>
+        <p>Processadores, placas-mãe, memórias RAM, SSDs, placas de vídeo, fontes e coolers.</p>
+      </div>
+      <div class="card">
+        <h3>Periféricos</h3>
+        <p>Teclados, mouses, headsets, mousepads e monitores.</p>
+      </div>
+      <div class="card">
+        <h3>Computadores</h3>
+        <p>PCs Gamer, PCs de escritório, notebooks e montagem sob medida.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="celulares">
+    <h2>📱 Produtos para Celulares</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Smartphones</h3>
+        <p>Aparelhos novos e seminovos (Android e iOS).</p>
+      </div>
+      <div class="card">
+        <h3>Acessórios</h3>
+        <p>Capas, películas, carregadores, cabos, fones Bluetooth e power banks.</p>
+      </div>
+      <div class="card">
+        <h3>Peças</h3>
+        <p>Baterias, telas e conectores para manutenção.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="games">
+    <h2> Produtos para Videogames</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Consoles</h3>
+        <p>PlayStation, Xbox e Nintendo Switch.</p>
+      </div>
+      <div class="card">
+        <h3>Acessórios Gamer</h3>
+        <p>Controles, headsets, docks, cabos HDMI e carregadores.</p>
+      </div>
+      <div class="card">
+        <h3>Jogos & Créditos</h3>
+        <p>Jogos físicos e cartões digitais (PSN, Xbox e Nintendo).</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="servicos">
+    <h2>🛠️ Serviços Técnicos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Computadores</h3>
+        <p>Montagem, upgrade, formatação e limpeza preventiva.</p>
+      </div>
+      <div class="card">
+        <h3>Celulares</h3>
+        <p>Troca de tela, bateria, atualização e configuração.</p>
+      </div>
+      <div class="card">
+        <h3>Videogames</h3>
+        <p>Limpeza interna, configuração e manutenção básica.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contato">
+    <h2>📞 Contato</h2>
+    <div class="card">
+      <p><strong>📍 Endereço:</strong> Jundiaí – SP</p>
+      <p><strong>📱 WhatsApp:</strong> (11) 9XXXX-XXXX</p>
+      <p><strong>📧 E-mail:</strong> contato@novavendas.com.br</p>
+      <p><strong>🕒 Atendimento:</strong> Seg a Sex – 9h às 18h</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2026 NovaVendas Tecnologia & Games – Todos os direitos reservados</p>
+  </footer>
+
+
+</body>
+</html>
