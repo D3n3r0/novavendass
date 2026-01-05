@@ -24,11 +24,6 @@
       font-size: 2.5rem;
     }
 
-    header p {
-      margin-top: 10px;
-      font-size: 1.1rem;
-    }
-
     nav {
       background: #020617;
       padding: 12px;
@@ -44,3 +39,103 @@
 
     section {
       padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>NovaVendas Tecnologia & Games</h1>
+  <p>Computadores • Celulares • Videogames</p>
+</header>
+
+<nav>
+  <a href="#computadores">Computadores</a>
+  <a href="#celulares">Celulares</a>
+  <a href="#games">Videogames</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="computadores">
+  <h2>🖥️ Computadores</h2>
+  <div class="produtos">
+    <div class="card">
+      <h3>PC Gamer</h3>
+      <p>Alto desempenho para jogos e trabalho.</p>
+    </div>
+    <div class="card">
+      <h3>Notebook</h3>
+      <p>Ideal para estudo e produtividade.</p>
+    </div>
+  </div>
+</section>
+
+<section id="celulares">
+  <h2>📱 Celulares</h2>
+  <div class="produtos">
+    <div class="card">
+      <h3>Smartphone Android</h3>
+      <p>Ótimo custo-benefício.</p>
+    </div>
+    <div class="card">
+      <h3>iPhone</h3>
+      <p>Desempenho e qualidade premium.</p>
+    </div>
+  </div>
+</section>
+
+<section id="games">
+  <h2>🎮 Videogames</h2>
+  <div class="produtos">
+    <div class="card">
+      <h3>PlayStation</h3>
+      <p>Exclusivos e alta performance.</p>
+    </div>
+    <div class="card">
+      <h3>Xbox</h3>
+      <p>Game Pass e potência.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>📞 Contato</h2>
+  <p>Email: contato@novavendas.com</p>
+  <p>WhatsApp: (11) 90000-0000</p>
+</section>
+
+<footer>
+  <p>© 2026 NovaVendas Tecnologia & Games</p>
+</footer>
+
+</body>
+</html>
